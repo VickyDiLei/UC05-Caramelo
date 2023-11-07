@@ -470,8 +470,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5651881849c0ade4d85391acd80016f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  botaoJogar: {fileID: 0}
-  botaoSair: {fileID: 0}
+  botaoJogar: {fileID: 1282014325}
+  botaoSair: {fileID: 1656760516}
 --- !u!1 &1166181966
 GameObject:
   m_ObjectHideFlags: 0
