@@ -5,7 +5,7 @@ using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
 
-public class Menu : MonoBehaviour
+public class Manual: MonoBehaviour
 {
 
     public Button botaoJogar;
@@ -13,7 +13,7 @@ public class Menu : MonoBehaviour
     public Button botaoManual;
 
     // Start is called before the first frame update
-    void Start() 
+    void Start()
     {
         botaoJogar.onClick.AddListener(() =>
         {
@@ -24,4 +24,5 @@ public class Menu : MonoBehaviour
             SceneManager.LoadScene("Instrucoes");
         });
     }
+
 }

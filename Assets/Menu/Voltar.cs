@@ -5,15 +5,16 @@ using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
 
-public class Menu : MonoBehaviour
+public class Voltar : MonoBehaviour
 {
 
     public Button botaoJogar;
     public Button botaoSair;
     public Button botaoManual;
+    public Button Votar;
 
     // Start is called before the first frame update
-    void Start() 
+    void Start()
     {
         botaoJogar.onClick.AddListener(() =>
         {
@@ -21,7 +22,7 @@ public class Menu : MonoBehaviour
         });
         botaoSair.onClick.AddListener(() =>
         {
-            SceneManager.LoadScene("Instrucoes");
+            SceneManager.LoadScene("Voltar");
         });
     }
 }

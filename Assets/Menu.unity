@@ -472,6 +472,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   botaoJogar: {fileID: 1282014325}
   botaoSair: {fileID: 1656760516}
+  botaoManual: {fileID: 1656760516}
 --- !u!1 &1166181966
 GameObject:
   m_ObjectHideFlags: 0
@@ -484,7 +485,7 @@ GameObject:
   - component: {fileID: 1166181969}
   - component: {fileID: 1166181968}
   m_Layer: 5
-  m_Name: RawImage Sair
+  m_Name: RawImage Manual
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -529,7 +530,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Texture: {fileID: 2800000, guid: dd3405dbb36869540b1af8cd3b55364a, type: 3}
+  m_Texture: {fileID: 2800000, guid: dcf9793df6a077648abf1ddf2aa7c6ad, type: 3}
   m_UVRect:
     serializedVersion: 2
     x: 0
@@ -596,6 +597,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   botaoJogar: {fileID: 0}
   botaoSair: {fileID: 0}
+  botaoManual: {fileID: 0}
 --- !u!114 &1178726100
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -764,8 +766,9 @@ GameObject:
   - component: {fileID: 1656760518}
   - component: {fileID: 1656760517}
   - component: {fileID: 1656760516}
+  - component: {fileID: 1656760519}
   m_Layer: 5
-  m_Name: Botao Sair
+  m_Name: Botao Manual
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -873,6 +876,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1656760514}
   m_CullTransparentMesh: 1
+--- !u!114 &1656760519
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1656760514}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b6f424ea920ed34d92f40d7a46aafc8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1763619254
 GameObject:
   m_ObjectHideFlags: 0
